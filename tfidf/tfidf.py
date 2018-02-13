@@ -46,3 +46,21 @@ for i, blob in enumerate(bloblist):
     sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     for word, score in sorted_words[:3]:
         print("Word: {}, TF-IDF: {}".format(word, round(score, 5)))
+        
+        
+        
+ '''
+ Output looks like :
+ Top words in document 1
+Word: python, TF-IDF: 0.01662
+Word: films, TF-IDF: 0.00997
+Word: on, TF-IDF: 0.00665
+Top words in document 2
+Word: 2, TF-IDF: 0.02192
+Word: genus, TF-IDF: 0.02192
+Word: among, TF-IDF: 0.01096
+Top words in document 3
+Word: Magnum, TF-IDF: 0.01382
+Word: revolver, TF-IDF: 0.01382
+Word: Colt, TF-IDF: 0.01382
+'''
