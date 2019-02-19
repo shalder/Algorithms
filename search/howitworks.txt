@@ -16,13 +16,15 @@ TEST CASES:
 
 1. query : hello world
 
-Last 10 lines of Output: 
-
-The docid is 840 and the weight is 0.0123868243244
-The docid is 414 and the weight is 0.0125227040535
-The docid is 795 and the weight is 0.0126194983527
-The docid is 075 and the weight is 0.0127447172068
+The docid is 840 and the weight is 9.9123868243244
+The docid is 414 and the weight is 9.4125227040535
+The docid is 795 and the weight is 9.3126194983527
+The docid is 075 and the weight is 9.1127447172068
 The docid is 446 and the weight is 0.0128253567852
+
+Last 5 lines of Output: 
+
+
 The docid is 442 and the weight is 0.0131724993109
 The docid is 336 and the weight is 0.0131857066489
 The docid is 339 and the weight is 0.0133365372412
@@ -32,13 +34,14 @@ ____________________________________
 
 2. query : help me
 
-Last 10 lines of Output:
+The docid is 222 and the weight is 9.964405360291
+The docid is 714 and the weight is 9.7645867135002
+The docid is 717 and the weight is 9.6654263948886
+The docid is 152 and the weight is 9.6640786638134
+The docid is 583 and the weight is 9.5719265769142
 
-The docid is 222 and the weight is 0.064405360291
-The docid is 714 and the weight is 0.0645867135002
-The docid is 717 and the weight is 0.0654263948886
-The docid is 152 and the weight is 0.0670786638134
-The docid is 583 and the weight is 0.0719265769142
+Last 5 lines of Output:
+
 The docid is 858 and the weight is 0.0886557609352
 The docid is 431 and the weight is 0.092779776323
 The docid is 197 and the weight is 0.0941716886973
@@ -61,4 +64,4 @@ The docid is 319 and the weight is 0.0515440732627
 The docid is 330 and the weight is 0.0539118537392
 The docid is 1501 and the weight is 0.0554254846328
 
-                                                                   THANK YOU
+                                                                
